@@ -1,0 +1,14 @@
+<html>
+<body>
+
+<input type="button" value="点击开始填写问卷" onclick="jump()" />
+<script type="text/javascript">
+    function jump(){
+        console.log("hello")
+        var url = [ "https://www.wjx.cn/jq/72199812.aspx", "https://www.wjx.cn/jq/22095642.aspx", "https://www.wjx.cn/jq/11503166.aspx" ];
+        var r = Math.floor(Math.random() * 3);
+        window.location.href = url[r];
+    }
+</script>
+</body>
+</html>
